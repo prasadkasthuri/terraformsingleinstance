@@ -7,6 +7,12 @@ pipeline {
                 echo "Some code compilation here..."
             }
         }
+        
+        stage("Deploy") {
+            steps {
+                echo "Some code compilation here..."
+            }
+        }
 
         stage("Test") {
             steps {
